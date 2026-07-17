@@ -1,6 +1,13 @@
-Navigate to your project directory
+# Hybrid Network Security Engine
+
+A native Python-based security tool built for Linux environments.
+
+## 🚀 Features
+- **Offensive Module:** Multi-port TCP handshake validation tool using standard Python socket architectures.
+- **Defensive Module:** Automated log parsing utility that scans Linux authorization subsystems for indicators of compromise.
+
+## 🛠️ Installation & Execution
+```bash
 cd ~/CyberScanner
-Assign execution permissions
 chmod +x scanner.py
-Execute with elevated privileges (required for auth log visibility)
 sudo ./scanner.py
